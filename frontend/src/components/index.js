@@ -1,5 +1,5 @@
 export { default as Nav } from "./Nav";
-export { default as leftBar } from "./leftBar";
+export { default as LeftBar } from "./LeftBar";
 export { default as Feed } from "./Feed";
 export { default as PinDetail } from "./PinDetail";
 export { default as UserProfile } from "./UserProfile";
