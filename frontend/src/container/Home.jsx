@@ -51,6 +51,7 @@ const Home = () => {
             <img src={user?.image} alt="logo" className="w-28" />
           </Link>
         </div>
+
         {toggleSideBar && (
           <div className="fixed w-4/5 bg-white h-screen overflow-y-auto shadow-md z-10 animate-slide-in ">
             <div className="abolute w-full flex justify-end items-center p-2">
