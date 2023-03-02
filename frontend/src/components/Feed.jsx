@@ -12,6 +12,7 @@ const Feed = () => {
   const { categoryId } = useParams();
 
   useEffect(() => {
+    // pins of specific category
     if (categoryId) {
       setLoading(true);
       const query = searchQuery(categoryId);

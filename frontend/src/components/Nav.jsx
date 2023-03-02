@@ -28,7 +28,7 @@ const Nav = ({ searchTerm, setSearchTerm, user }) => {
           {/* in Nav comp shown at largeDevice */}
           <Link to={`user-profile/${user?._id}`} className="hidden md:block">
             <img
-              src={user.image}
+              src={user.picture}
               alt="user-pic"
               className="w-14 h-12 rounded-lg "
             />

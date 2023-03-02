@@ -27,7 +27,8 @@ const Login = () => {
         localStorage.setItem("user", JSON.stringify(res?.data));
         const { name, picture, sub } = res?.data;
         console.log(res?.data);
-        console.log(res?.data.name);
+        console.log(res?.data.picture);
+        console.log(res?.data.sub);
 
         const doc = {
           _id: sub,
