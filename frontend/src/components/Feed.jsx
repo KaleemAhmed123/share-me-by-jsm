@@ -8,11 +8,10 @@ import Spinner from "./Spinner";
 
 const Feed = () => {
   const [pins, setPins] = useState();
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const { categoryId } = useParams();
 
   useEffect(() => {
-    // pins of specific category
     if (categoryId) {
       setLoading(true);
       const query = searchQuery(categoryId);
